@@ -1,0 +1,16 @@
+﻿사용법
+http://bimmermac.com/1242
+
+비쥬얼코드 터미널 실행
+ctrl + `
+
+해당 폴더에 프로젝트 생성
+ionic start Start
+
+폴더 생성후 페이지 생성
+ionic generate page users
+
+
+
+
+
