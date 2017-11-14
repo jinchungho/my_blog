@@ -11,6 +11,8 @@ ionic start Start
 ionic generate page users
 
 
+D:/projects/CitedApps/node_modules/ionic-angular/components/modal/modal.d.ts,
+
 
 
 
