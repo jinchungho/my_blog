@@ -10,8 +10,14 @@ ionic start Start
 폴더 생성후 페이지 생성
 ionic generate page users
 
+npm install
+npm run ionic:serve
+즐겨찾는 인용문 앱 사이트메뉴 확인x
 
-D:/projects/CitedApps/node_modules/ionic-angular/components/modal/modal.d.ts,
+cookery
+앱 구조화시키기
+
+
 
 
 
