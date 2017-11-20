@@ -1,0 +1,45 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>쇼핑 리스트</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form #f="ngForm" (ngSubmit)="onAddItem(f)">
+    <ion-list>
+      <ion-item>
+        <ion-label fixed>이름</ion-label>
+        <ion-input
+          type="text"
+          name="ingredientName"
+          placeholder="재료이름"
+          ngModel
+          required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label fixed>수량</ion-label>
+        <ion-input
+          type="number"
+          name="amount"
+          placeholder="2"
+          ngModel
+          required></ion-input>
+      </ion-item>
+    </ion-list>
+    <button
+      ion-button
+      type="submit"
+      block
+      [disabled]="!f.valid" >재료 추가</button>
+  </form>
+  <ion-list>
+    <ion-item *ngFor="let item of listItems; let i = index" (click)="onCheckItem(i)">
+      <h3>{{ item.name }} ({{ item.amount }})</h3>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
