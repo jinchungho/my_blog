@@ -18,3 +18,12 @@ pull(올려진소스받기)->작업->pull(작업중에 소스받기)->push(소�
 
 ignore하고 push 할시 버젼관리안하고 관리
 (해당 DB접속 ID와 PW 공개하기 어려울때!)
+
+해당폴더에
+git init
+커밋하기전 쓸말
+git commit -m "first commit"
+저장위치 주소
+git remote add origin https://github.com/jinchungho/projects.git
+저장 아이디
+git push -u origin master
