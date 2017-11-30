@@ -1,0 +1,11 @@
+﻿1. models폴더, 장소 페이지, 새로운 장소를 추가하는 페이지, 장소세팅페이지 생성후 app모듈 연결
+2. 내비게이션 구현 및 폼 작성
+3. 구글 맵 패키지 install
+4. npm install --save angular2-google-maps 
+5. npm install --save @agm/core
+core_1.OpaqueToken is not a constructor
+npm install @agm/core --save
+앵귤러 버젼이 문제가 되어 버젼을 업데이트!
+안타깝게도 Angular 자체를 업그레이드하지 않으려는 경우 CLI의 최신 버전을 사용할 수 없다!
+
+
