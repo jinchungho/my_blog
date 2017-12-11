@@ -27,3 +27,22 @@ git commit -m "first commit"
 git remote add origin https://github.com/jinchungho/projects.git
 저장 아이디
 git push -u origin master
+
+
+내 저장소에 있는 모든 파일들을 통째로 다른 repository로 옮기고 싶을 때!
+
+현재 내가 연결되어있는 Git을 보려면 git remote 를 터미널창에 입력해주세요.
+자세히 보고싶으시다면 git remote -v를 입력해주세요.
+
+원하시는 방법으로 현재 제 저장소의 https주소를 복사했다면, 밑의 커맨드라인에서 주소부분만 바꾸어 터미널창에 입력해주세요. 
+git clone --mirror https://example.git
+
+새로운 저장소의 https주소를 복사해주고, 
+git remote set-url --push origin https://example을 터미널창에 입력
+
+이제 마지막으로 push를 해야겠죠? 
+git push --mirror
+
+
+
+
